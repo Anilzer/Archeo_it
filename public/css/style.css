@@ -1,0 +1,555 @@
+* {
+    font-family: 'Poppins';
+}
+
+.navbar-marron {
+    color: white;
+    background-color: #0a1a5a;
+}
+
+.navbar-nv {
+    display: flex;
+    justify-content: center;
+    /* Centrer horizontalement les éléments */
+    list-style: none;
+    /* Supprime les puces de liste */
+    padding-top: 15px;
+    /* Supprime le padding par défaut */
+}
+
+.navbar-nv .nav-item {
+    margin-right: 25px;
+    /* Espacement entre les éléments */
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    /* Centrer verticalement */
+}
+
+.custom-text-color {
+    color: white;
+    text-decoration: none;
+}
+
+.custom-text-color:hover {
+    color: #ff33b4;
+    /* Couleur du texte au survol */
+}
+
+.btn-outline-custom {
+    color: #ffffff;
+    /* Couleur du texte */
+    border-color: #ff33b4;
+    /* Couleur de la bordure */
+    margin-bottom: 10px;
+    /* Supprime la marge */
+}
+
+.btn-outline-custom:hover {
+    background-color: #ff33b4;
+    /* Couleur de fond au survol */
+    color: #ffffff;
+    /* Couleur du texte au survol */
+}
+
+.carousel-inner img {
+    height: 700px;
+}
+
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Couleur de l'ombre avec une opacité de 50% */
+}
+
+.carousel-caption h5, .carousel-caption p {
+    font-size: 30px;
+    /* Taille de police pour les titres */
+}
+
+.carousel-caption p {
+    font-size: 22px;
+    /* Taille de police pour les paragraphes */
+}
+
+.text-justify {
+    text-align: justify;
+    font-size: 19px;
+}
+
+.tab-news {
+    position: relative;
+}
+
+.tab-news .col-md-6 {
+    margin-bottom: 60px;
+}
+
+.tab-news .nav.nav-pills .nav-link {
+    color: #ffffff;
+    background: #000000;
+    border-radius: 0;
+}
+
+.tab-news .nav.nav-pills .nav-link:hover,
+.tab-news .nav.nav-pills .nav-link.active {
+    color: #ffffff;
+    background: #ff33b4;
+}
+
+.tab-news .tab-content {
+    padding: 30px 15px 15px 15px;
+    background: rgba(0, 0, 0, .05);
+}
+
+.tab-news .tn-news {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background: #ffffff;
+}
+
+.tab-news .tn-img {
+    width: 150px;
+}
+
+.tab-news .tn-img img {
+    width: 150px;
+}
+
+.tab-news .tn-title {
+    padding: 10px 15px;
+}
+
+.tab-news .tn-title a {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all .3s;
+}
+
+.tab-news .tn-title a:hover {
+    color: #ff33b4;
+}
+
+.col-md-6 .mn-list {
+    margin-bottom: 30px;
+}
+
+.col-md-6 .mn-list h2 {
+    color: #000000;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 3px double #000000;
+}
+
+.col-md-6 .mn-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.col-md-6 .mn-list ul li {
+    margin: 0 0 12px 5px;
+    position: relative;
+}
+
+.col-md-6 .mn-list ul li:last-child {
+    margin-bottom: 0;
+}
+
+.col-md-6 .mn-list ul li a {
+    color: #000000;
+    display: block;
+    line-height: 23px;
+    padding-left: 25px;
+}
+
+.col-md-6 .mn-list ul li::before {
+    position: absolute;
+    content: '\f061';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #000000;
+    left: 0px;
+    top: 0px;
+}
+
+.col-md-6 .mn-list ul li a:hover {
+    color: #ff33b4;
+}
+
+/**********************************/
+/********** Footer CSS ************/
+/**********************************/
+.footer {
+    position: relative;
+    padding: 60px 0 0 0;
+    background: #111111;
+}
+
+.footer .footer-widget {
+    position: relative;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.footer .footer-widget .title {
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    border-bottom: 3px double #ffffff;
+}
+
+.footer .footer-widget p {
+    color: #ffffff;
+}
+
+.footer .footer-widget ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer .footer-widget ul li {
+    margin-bottom: 12px;
+}
+
+.footer .footer-widget ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footer .footer-widget ul li a {
+    color: #ffffff;
+    white-space: nowrap;
+    display: block;
+    line-height: 23px;
+}
+
+.footer .footer-widget ul li a::before {
+    content: '\f061';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    padding-right: 5px;
+}
+
+.footer .footer-widget ul li a:hover {
+    padding-left: 10px;
+    color: #ff33b4;
+}
+
+.footer .contact-info p {
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.footer .contact-info p i {
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+.footer .social {
+    position: relative;
+    width: 100%;
+}
+
+.footer .social a {
+    display: inline-block;
+    margin: 10px 5px 0 0;
+    width: 35px;
+    height: 35px;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 18px;
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+.footer .social a i {
+    color: #111111;
+}
+
+.footer .social a:hover {
+    background: #ff33b4;
+}
+
+.footer .social a:hover i {
+    color: #ffffff;
+}
+
+
+.back-to-top {
+    position: fixed;
+    background: #ff33b4;
+    color: #ffffff;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    border-radius: 4px;
+    z-index: 11;
+}
+
+.back-to-top:hover {
+    background: #ff7b00;
+}
+
+.back-to-top i {
+    padding-top: 9px;
+    color: #ffffff;
+}
+
+button.btn_sub {
+    color: #ffffff;
+    background: #000000;
+    border: 1px solid #000000;
+}
+
+button.btn_sub:hover {
+    color: #ffffff;
+    background: #ff33b4;
+    border-color: #ff33b4;
+}
+
+/* Style pour les titres des cartes */
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Style pour le texte des cartes */
+.card-text {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Style pour les boutons des cartes */
+.btn-primary {
+    background-color: #0a1a5a;
+    border-color: #0a1a5a;
+    font-size: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #124f90;
+    border-color: #124f90;
+}
+
+/* Style pour les marges entre les cartes */
+.mb-6 {
+    margin-top: 120px;
+}
+
+/* Style pour le titre principal */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Style pour le centrage du titre principal */
+.text-center {
+    text-align: center;
+}
+
+#mapid {
+    margin-top: 30px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.leaflet-popup-content-wrapper {
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    line-height: 1.4;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.leaflet-popup-content {
+    margin: 8px;
+}
+
+.leaflet-popup-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.conference {
+    margin-bottom: 30px;
+    border: 2px solid #ff33b4;
+    border-radius: 10px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+
+.conference img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.conference:hover img {
+    transform: scale(1.1);
+}
+
+.conference .conference-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.conference:hover .conference-info {
+    opacity: 1;
+}
+
+.conference h3 {
+    margin-bottom: 10px;
+}
+
+.conference p {
+    margin-bottom: 5px;
+}
+
+.conference a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    transition: background-color 0.1s ease;
+}
+
+.revue {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.revue img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.revue h3 {
+    margin-bottom: 10px;
+}
+
+.revue p {
+    margin-bottom: 5px;
+}
+
+.people {
+    padding: 50px 0;
+    cursor: pointer;
+}
+
+.item {
+    margin-bottom: 30px;
+}
+
+.item .box {
+    border-radius: 20px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+}
+
+.item .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ff33b4;
+    transition: opacity 0.15s ease-in;
+    opacity: 0;
+    padding-top: 80px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.item:hover .cover {
+    opacity: 0.9;
+}
+
+.item .name {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.item .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.social {
+    font-size: 18px;
+}
+
+.social a {
+    color: inherit;
+    margin: 0 10px;
+    display: inline-block;
+    opacity: 1;
+}
+
+.social a:hover {
+    opacity: 1;
+}
+
+.contact {
+    position: relative;
+    padding: 25px 0 15px 0;
+}
+
+.contact .contact-form,
+.contact .contact-info {
+    margin-bottom: 45px;
+}
+
+.contact .contact-info h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.contact .contact-info p {
+    text-align: justify;
+}
