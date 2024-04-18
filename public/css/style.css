@@ -10,22 +10,17 @@
 .navbar-nv {
     display: flex;
     justify-content: center;
-    /* Centrer horizontalement les éléments */
     list-style: none;
-    /* Supprime les puces de liste */
     padding-top: 15px;
-    /* Supprime le padding par défaut */
 }
 
 .navbar-nv .nav-item {
     margin-right: 25px;
-    /* Espacement entre les éléments */
 }
 
 .navbar-brand {
     display: flex;
     align-items: center;
-    /* Centrer verticalement */
 }
 
 .custom-text-color {
@@ -35,23 +30,17 @@
 
 .custom-text-color:hover {
     color: #ff33b4;
-    /* Couleur du texte au survol */
 }
 
 .btn-outline-custom {
     color: #ffffff;
-    /* Couleur du texte */
     border-color: #ff33b4;
-    /* Couleur de la bordure */
     margin-bottom: 10px;
-    /* Supprime la marge */
 }
 
 .btn-outline-custom:hover {
     background-color: #ff33b4;
-    /* Couleur de fond au survol */
     color: #ffffff;
-    /* Couleur du texte au survol */
 }
 
 .carousel-inner img {
@@ -65,17 +54,14 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    /* Couleur de l'ombre avec une opacité de 50% */
 }
 
 .carousel-caption h5, .carousel-caption p {
     font-size: 30px;
-    /* Taille de police pour les titres */
 }
 
 .carousel-caption p {
     font-size: 22px;
-    /* Taille de police pour les paragraphes */
 }
 
 .text-justify {
@@ -185,9 +171,7 @@
     color: #ff33b4;
 }
 
-/**********************************/
-/********** Footer CSS ************/
-/**********************************/
+
 .footer {
     position: relative;
     padding: 60px 0 0 0;
@@ -324,19 +308,16 @@ button.btn_sub:hover {
     border-color: #ff33b4;
 }
 
-/* Style pour les titres des cartes */
 .card-title {
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-/* Style pour le texte des cartes */
 .card-text {
     font-size: 1.1rem;
     color: #555;
 }
 
-/* Style pour les boutons des cartes */
 .btn-primary {
     background-color: #0a1a5a;
     border-color: #0a1a5a;
@@ -348,18 +329,16 @@ button.btn_sub:hover {
     border-color: #124f90;
 }
 
-/* Style pour les marges entre les cartes */
 .mb-6 {
     margin-top: 120px;
 }
 
-/* Style pour le titre principal */
 h1 {
     font-size: 2.5rem;
     font-weight: bold;
 }
 
-/* Style pour le centrage du titre principal */
+
 .text-center {
     text-align: center;
 }

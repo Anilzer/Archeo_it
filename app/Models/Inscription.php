@@ -12,6 +12,7 @@ class Inscription extends Model
     {
         return $this->belongsTo(Stage::class, 'idStage');
     }
+    protected $primaryKey = 'idInscription';
 
     protected $fillable = [
         'nom',

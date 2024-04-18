@@ -95,7 +95,7 @@ class ArcheoController extends Controller
     }
     public function deletestages($id)
     {
-        // Supprimez l'œuvre en utilisant l'ID
+        // Supprimez l'œuvre en utilisant l'ID 
         $inscription = Inscription::findOrFail($id);
         $inscription->delete();
 

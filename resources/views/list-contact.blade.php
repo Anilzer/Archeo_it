@@ -25,7 +25,7 @@
                         <td class="text-center">{{ $contact->message }}</td>
                         <td class="text-center">
                             <div class="btn btn-group">
-                                <form method="POST" action="{{ route('contact.delete', $contact->idContact) }}">
+                                <form method="GET" action="{{ route('contact.delete', $contact->idContact) }}">
                                     @csrf
                                     <button type="submit" class="btn btn-danger">Supprimer</button>
                                 </form>
